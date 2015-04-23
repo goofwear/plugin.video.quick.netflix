@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="plugin.video.quick.netflix" name="Quick Netflix" version="0.0.1" provider-name="phantomdiorama (tree_and_kite)">
+  <requires>
+     <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata" library="default.py">
+    <summary>Quick Netflix</summary>
+    <description>Launch Netflix in chrome</description>
+    <provides>video</provides>
+  </extension>
+</addon>
